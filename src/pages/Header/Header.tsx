@@ -1,4 +1,4 @@
-import './Header.scss'
+import './Header.scss' ;
 import logo from './Logo.svg';
 import Home from './Group 439.svg';
 export const Header = () => {
