@@ -1,0 +1,287 @@
+.properties
+{
+    width: 1440px;
+    height: 727px;
+    top: 1793px;
+    background: #F5FAFE;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.properties1
+{
+    width: 1110px;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.dop-class1
+{
+height: 80px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.dop-class2
+{
+height: 80px;
+display: flex;
+align-items:flex-end ;
+}
+.prop-prop
+{
+    height: 507px;
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prop-text1
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    color: #000339;
+    margin: 0px;
+}
+.prop-text2
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5A6473;
+    margin: 0px;
+}
+.prop-text3
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+    color: #0689FF;
+    margin: 0px;
+}
+.arrow-text
+{
+    width: 24px;
+    height: 8px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+}
+.properties2
+{
+    width: 1110px;
+    height: 357px;
+
+    
+    display: flex;
+    justify-content: space-between;
+}
+.image-link
+{
+    width: 350px;
+    height: 357px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+
+}
+.values
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+color: #000339;
+margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 8px;
+}
+.place
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #A3A6AB;
+margin-left: 20px;
+margin-bottom: 18px;
+margin-top: 0px;
+}
+.foricons
+{
+    display: flex;
+    gap: 22px;
+    margin-left: 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #4D4D52;
+}
+.ikon1
+{
+    width: 20.59px;
+height: 15.43px;
+}
+.ikon2
+{
+    width: 21.3px;
+    height: 17.08px;
+}
+
+.ikon3
+{
+    width: 18px;
+    height: 18px;
+}
+
+.ikkk1 , .ikkk2 , .ikkk3
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (min-width:401px)
+{
+    .mobile-only
+    {
+        display: none !important;
+        
+    }
+    
+}
+
+@media (max-width:400px)
+{
+    .desktop-only
+    {
+        display: none !important;
+    }
+
+    .properties
+     {
+        margin: 0;
+        width: 400px;
+        justify-content: flex-start;
+        height: 925px;
+        
+     }
+     .prop-prop
+     {
+        margin: 0;
+       width:  400px;
+       height: 925px;
+     }
+     .properties1
+     {
+        margin: 0;
+        height: 120px;
+        flex-direction: column;
+        width: 400px;
+        align-items: center;
+     }
+     .dop-class1
+     {
+        margin: 0;
+        width: 350px;
+        height: 65px;
+        align-items: center;
+    
+     }
+     .prop-text1
+     {
+        margin: 0;
+        font-size: 30px;
+     }
+     .prop-text2{
+        margin: 0;
+        font-size: 14px;
+     }
+     .dop-class2
+     {
+        margin: 0;
+        height: 30px;
+     }
+     .prop-text3
+     {
+        margin: 0;
+        font-size: 14px;
+     }
+     .prop-text3-arrow{
+        margin: 0;
+     }
+     .arrow-text
+     {
+        margin: 0;
+        width: 20px;
+     }
+     .properties2{
+        margin: 0;
+        flex-direction: column;
+    height: 810px;
+    width: 400px;
+    align-items: center;
+     }
+     .image-link{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 270px;
+        justify-content: space-around;
+     }
+     .values
+     {
+        margin: 0;
+     }
+     .place{
+        margin: 0;
+     }
+     .for-icons
+     {
+        margin: 0;
+     }
+     .ikkk{
+        margin: 0;
+     }
+     .ikon1
+     {
+        margin: 0;
+     }
+     .ikon11{
+        margin: 0;
+     }
+     .ikon2
+     {
+        margin: 0;
+     }
+     .ikon22{
+        margin: 0;
+     }
+     .ikon3
+     {
+        margin: 0;
+     }
+     .ikon33{
+        margin: 0;
+     }
+     .imggg{
+        width: 250px;
+     }
+}
